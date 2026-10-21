@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Browse illustrative undergraduate programs at Crestfield College and use the live search and filters." />
+    <meta property="og:title" content="Programs | Crestfield College" />
+    <meta property="og:description" content="Browse illustrative undergraduate programs at Crestfield College and use the live search and filters." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1400&q=80" />
+    <title>Programs | Crestfield College</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%230f213d'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='36' font-family='Arial, sans-serif'%3EC%3C/text%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="programs-page">
+    
+<div class="site-announcement"><div class="container"><strong>Admissions Open:</strong> Fall 2026 applications now available for undergraduate and postgraduate study.</div></div>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="./index.html" aria-label="Crestfield College homepage">
+      <span class="brand-mark">C</span>
+      <span class="brand-text"><small>Crestfield</small><strong>College of Technology</strong></span>
+    </a>
+    <nav class="primary-nav" aria-label="Main navigation">
+      <div class="nav-item"><a href="./index.html">Home</a></div>
+      <div class="nav-item"><a href="./about.html">About</a></div>
+      <div class="nav-item">
+        <button type="button" aria-expanded="false">Academics</button>
+        <div class="dropdown-menu">
+          <a href="./programs.html">All Programs</a>
+          <a href="./program-detail.html?program=computer-science">Computer Science</a>
+          <a href="./program-detail.html?program=data-science">Data Science</a>
+          <a href="./program-detail.html?program=business-administration">Business Administration</a>
+        </div>
+      </div>
+      <div class="nav-item"><a href="./admissions.html">Admissions</a></div>
+      <div class="nav-item"><a href="./campus-life.html">Campus Life</a></div>
+      <div class="nav-item"><a href="./news.html">News &amp; Events</a></div>
+      <div class="nav-item"><a href="./contact.html">Contact</a></div>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn-primary" href="./admissions.html">Apply Now</a>
+      <button class="mobile-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+
+    
+<main>
+  <section class="page-hero"><div class="container"><div class="breadcrumbs">Home / Academics / Programs</div><h1>Academic Programs</h1><p>These sample program listings are illustrative and clearly labeled as educational portfolio content.</p></div></section>
+  <section class="section"><div class="container"><div class="filter-bar reveal"><div class="field"><label for="programSearch">Search programs</label><input id="programSearch" type="search" placeholder="Search by title or keyword" /></div><div class="field"><label for="facultyFilter">Faculty</label><select id="facultyFilter"><option value="all">All faculties</option><option value="Faculty of Computing">Faculty of Computing</option><option value="School of Analytics">School of Analytics</option><option value="School of Engineering">School of Engineering</option><option value="School of Business">School of Business</option><option value="School of Media &amp; Communication">School of Media &amp; Communication</option></select></div><div class="field"><label for="qualificationFilter">Qualification</label><select id="qualificationFilter"><option value="all">All qualifications</option><option value="Bachelor">Bachelor</option><option value="Diploma">Diploma</option></select></div><button id="resetFilters" class="btn btn-secondary" type="button">Reset filters</button></div><div id="programGrid" class="program-grid"></div><div id="programEmpty" class="empty-state"><h3>No programs match your current search.</h3><p>Try changing your filters or resetting the search criteria.</p></div></div></section>
+</main>
+
+    
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="brand" href="./index.html" aria-label="Crestfield College homepage">
+        <span class="brand-mark">C</span>
+        <span class="brand-text"><small>Crestfield</small><strong>College of Technology</strong></span>
+      </a>
+      <p style="margin-top:1rem; max-width: 320px;">Preparing career-ready graduates through academic excellence, innovation, and meaningful student experiences.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul class="card-list">
+        <li><a href="./about.html">About us</a></li>
+        <li><a href="./programs.html">Academic programs</a></li>
+        <li><a href="./admissions.html">Admissions</a></li>
+        <li><a href="./campus-life.html">Campus life</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Resource</h4>
+      <ul class="card-list">
+        <li><a href="./news.html">News &amp; events</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./student-portal.html">Student portal</a></li>
+        <li><a href="./404.html">Support</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul class="card-list">
+        <li>101 Academy Way, Crestfield</li>
+        <li>hello@crestfieldcollege.edu</li>
+        <li>+1 (555) 014-9832</li>
+        <li>Mon–Fri: 8:00am–5:00pm</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="year"></span> Crestfield College of Technology</span>
+    <span>Illustrative sample website for a portfolio project.</span>
+  </div>
+</footer>
+<button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/programs.js"></script>
+  </body>
+</html>
